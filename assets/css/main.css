@@ -81,7 +81,47 @@ h2 {
 
 .content6 {
     padding: 100px;
-    background: darkgrey;
+    background: lightgreen;
+}
+
+.content7 {
+    height: 100vh;
+    padding: 100px;
+    background: #B6DE82;
+    background-size: cover;
+}
+
+.content7 > .row > .col-md-4 > div{
+    margin-top: 25vh;
+    text-align: center;
+}
+.content7 > .row > .col-md-4 > div > h2{
+    font-size: 100px;
+    margin: 0;
+}
+.content7 > .row > .col-md-4 > div > p{
+    font-size: 30px;
+    line-height: 40px;
+    color:white;
+}
+
+.faq-button{
+    border-radius: 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color:white;
+    font-size: 25px;
+    padding : 20px 0;
+    width: 100%;
+    text-align: left;
+}
+.faq-button:hover{
+    color: #D1FF94;
+}
+.faq-answer > .card-body{
+    color: white;
+    background: #B6DE82;
+    border: 0;
 }
 
 .image-gallery {
@@ -98,7 +138,8 @@ h2 {
     font-size: 150px;
     font-weight: 800;
     color: white;
-    background-color: skyblue;
+    background:url('../images/bg.gif');
+    background-size: cover;
     margin: 0 !important;
 }
 
@@ -242,8 +283,9 @@ li {
   .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: auto;
+    max-width: 80vw;
+    max-height: 70vh;
   }
   
   /* Caption of Modal Image */
