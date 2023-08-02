@@ -112,3 +112,22 @@ $(document).keyup(function(e) {
 		modal.style.display = "none";
     }
 });
+
+
+
+setTimeout(function() {
+	const note = document.querySelector('.se-pre-con');
+	note.style.display = 'none';
+}, 2500);
+
+$('button#remove-welcome').on('click', function() {
+	var element = "div.welcome-container";
+	$(element).animate({
+	 padding: "0px",
+		'margin-top':'-100vh',
+	 'font-size': "0px",
+	 'background':"none"
+   }, 500, function() {
+	   $(element).remove();      
+   });
+ });
