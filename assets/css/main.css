@@ -232,6 +232,35 @@ li {
     transform: scale(0.9);
 }
 
+.footer-web{
+    /* color: white; */
+    background: #F7F7F7;
+    padding: 50px;
+}
+
+.footer-web img{
+    max-height: 100px;
+    max-width: 80%;
+    margin-bottom: 50px;
+}
+
+.footer-web p{
+    max-width: 80%;
+}
+
+.footer-web ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-web li{
+    list-style: none;
+}
+
+.footer-web a{
+    color: black;
+}
+
 
 
 
