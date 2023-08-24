@@ -85,7 +85,7 @@ h2 {
 }
 
 .content7 {
-    height: 100vh;
+    height: auto;
     padding: 100px;
     background: #B6DE82;
     background-size: cover;
@@ -94,6 +94,7 @@ h2 {
 .content7 > .row > .col-md-4 > div{
     margin-top: 25vh;
     text-align: center;
+    height: 100%;
 }
 .content7 > .row > .col-md-4 > div > h2{
     font-size: 100px;
